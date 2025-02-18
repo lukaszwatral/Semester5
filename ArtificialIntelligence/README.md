@@ -1,0 +1,1 @@
+Exercises from my Artificial Intelligence classes.

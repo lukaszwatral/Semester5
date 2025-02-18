@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="container">
+    <h1>Weather App</h1>
+    <div class="card">
+        <input type="text" id="city" placeholder="Enter City Name">
+        <button id="submit">Get weather!</button>
+    </div>
+    <div id="weather">
+        <div class="card">
+            <h2 id="cityName"></h2>
+            <h3 id="dateTime"></h3>
+            <div class="weatherInfo">
+                <img id="icon" src="" alt="">
+                <h2 id="temp"></h2>
+            </div>
+            <h3 id="details"></h3>
+            <h5 id="feelsLike"></h5>
+            <div class="weatherStatsContainer">
+            <div class="weatherStats">
+                <img src="" alt="">
+                <h5 id="wind"></h5>
+            </div>
+            <div class="weatherStats">
+                <img src="" alt="">
+                <h5 id="pressure"></h5>
+            </div>
+            <div class="weatherStats">
+                <img src="" alt="">
+                <h5 id="humidity"></h5>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="forecast"></div>
+    <div id="forecastSlider" class="sliderContainer">
+        <button class="sliderButton prev"><Prev></button>
+        <div class="sliderWrapper">
+            <div class="sliderTrack" id="sliderTrack"></div>
+        </div>
+        <button class="sliderButton next">Next</button>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+<footer>
+    <p>Łukasz Watral &copy; <span id="currentYear"></span></p>
+    <p id="attribute">
+        <br><br>
+    Attribute: <br>
+    <a href="https://www.flaticon.com/free-icons/humidity" title="humidity icons">Humidity icons created by orangesnotes - Flaticon</a> |
+    <a href="https://www.flaticon.com/free-icons/wind" title="wind icons">Wind icons created by Freepik - Flaticon</a> |
+    <a href="https://www.flaticon.com/free-icons/pressure" title="pressure icons">Pressure icons created by Freepik - Flaticon</a><br>
+
+</footer>
+
+<script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear().toString();
+</script>
+</html>

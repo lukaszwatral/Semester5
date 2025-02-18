@@ -1,0 +1,11 @@
+{
+    "name": "lukasz/lab4",
+    "require": {
+        "doctrine/dbal": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lukasz\\Lab4\\": "src/"
+        }
+    }
+}

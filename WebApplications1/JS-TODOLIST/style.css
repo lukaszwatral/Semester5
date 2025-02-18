@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+    font-size: 15px;
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+        background-image: linear-gradient(to bottom right, darkblue, purple);
+        background-repeat: initial;
+}
+
+.container{
+    background: #eee;
+    width: 700px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 500px;
+    box-shadow: white 0px 0px 20px;
+    border-radius: 20px;
+}
+
+
+.taskList, span, .searchBar{
+    float: left;
+    width: 100%;
+}
+
+.searchBar{
+    height: 30px;
+}
+
+#addTaskForm{
+    width: 100%;
+    padding: 20px;
+}
+
+#taskText {
+    width: 50%;
+}
+
+#taskDate{
+    width: 30%;
+}
+
+
+#addTaskButton {
+    width: 19%;
+    float: right;
+    padding: 20px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    background-image: linear-gradient(to bottom right, red, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+#taskText, #taskDate{
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+input {
+    appearance: none;
+    border: none;
+}
+
+.inputTaskText{
+    width: 50%;
+
+}
+
+.inputTaskDate{
+    width: 30%;
+    font-weight: 800;
+}
+
+.inputTaskDateEdit, .inputTaskTextEdit{
+    background: none;
+}
+
+.inputTaskTextEdit:focus, .inputTaskDateEdit:focus{
+    outline: none;
+    display: block;
+}
+
+.inputTaskTextEdit:focus{
+    width: 40%;
+}
+
+.inputTaskDateEdit:focus{
+    width: 37%;
+    margin-left: auto;
+}
+
+
+
+.deleteButton  {
+    float: right;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+}
+
+
+#searchBar{
+    width: 95%;
+    margin: 20px auto 20px auto;
+    padding: 20px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+.taskEl{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px dashed black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#taskList {
+    padding: 20px;
+}
+
+.highlight {
+    background-color: #a7dfa7;
+    font-weight: bold;
+}
+
+h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 50px;
+    font-weight: 800;
+    background-image: linear-gradient(to bottom right, red, purple);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.spanTaskName{
+    width: 56%;
+    float: left;
+
+}
+
+
+.spanTaskDate {
+    width: 30%;
+    float: left;
+}
+
+.spanTaskDate, .spanTaskName{
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+mark {
+    background-color: lightblue;
+    font-weight: bold;
+}
+

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="pl.edu.zut.wi.ni53674" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Łukasz 53674</name>
+    <description>Weather App</description>
+    <author email="wl53674@zut.edu.pl" href="https://www.wi.zut.edu.pl">
+        Łukasz Watral
+    </author>
+    <content src="weather.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+
+    <platform name="electron">
+    <icon src = "res/electron/icon.png"/>
+    <preference name="electronSettingsFilePath" value="res/electron/settings.json" />
+</platform>
+</widget>
+

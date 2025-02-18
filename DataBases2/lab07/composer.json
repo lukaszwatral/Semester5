@@ -1,0 +1,19 @@
+{
+    "name": "lukasz/lab7",
+    "autoload": {
+        "psr-4": {
+            "Lukasz\\Lab7\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wl53674",
+            "email": "wl53674@zut.edu.pl"
+        }
+    ],
+    "require": {
+        "doctrine/orm": "^3.3",
+        "doctrine/annotations": "^2.0",
+        "symfony/cache": "^7.1"
+    }
+}
